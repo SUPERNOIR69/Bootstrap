@@ -1,0 +1,9 @@
+.containers{
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+    justify-content: center;
+}
+.card-body{
+    text-align: center;
+}

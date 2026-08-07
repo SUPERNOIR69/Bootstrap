@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Website</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav-item-custom {
+            height: 50px;
+            padding-top: 15px;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            height: 50px;
+            padding-top: 15px;
+            padding-right: 40px;
+            font-size: smaller;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .nav-links span {
+            margin-right: 25px;
+        }
+
+        .nav-links span:last-child {
+            margin-right: 0;
+        }
+
+        .carousel-item img {
+            height: 275px;
+            object-fit: cover;
+        }
+
+        .business-section {
+            margin-top: 106px;
+        }
+
+        .business-img {
+            width: 100%;
+        }
+
+        .business-text {
+            min-height: 167px;
+        }
+
+        .callout {
+            min-height: 40px;
+            margin-top: 50px;
+            font-size: 1rem;
+            padding: 12px 20px;
+        }
+
+        .card {
+            height: auto;
+            min-height: 200px;
+        }
+
+        .card-text {
+            font-size: 0.9rem;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="d-flex">
+        <div class="col-3 bg-dark text-light nav-item-custom ps-3">
+            <a href="./index.html">WU</a>
+        </div>
+
+        <div class="col-9 bg-dark text-light nav-links">
+            <span><a href="">History</a></span>
+            <span><a href="">Vision and Mission</a></span>
+            <span><a href="">Collaboration</a></span>
+            <span><a href="">Contact us</a></span>
+        </div>
+    </div>
+
+    <div id="etec-carousel" class="carousel slide">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#etec-carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#etec-carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#etec-carousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="./chicago.jpg" class="d-block w-100" alt="Chicago">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./la.jpg" class="d-block w-100" alt="Los Angeles">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./ny.jpg" class="d-block w-100" alt="New York">
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#etec-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#etec-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+    <div class="row w-100 business-section">
+
+        <div class="col-7">
+            <img src="./images_10.jpg" class="rounded business-img" alt="Business">
+        </div>
+
+        <div class="col-5 business-text">
+            <h1 style="font-size:30px;">Business Name or Tagline</h1>
+
+            <p>
+                This is a template that is great for small businesses.
+                It doesn't have too much fancy flare to it, but it makes
+                great use of the standard Bootstrap components.
+                Feel free to use this template for any project you want!
+                This is a template that is great for small businesses.
+                It doesn't have too much fancy flare to it, but it makes
+                great use of the standard Bootstrap components.
+                Feel free to use this template for any project you want!
+                This is a template that is great for small businesses.
+                It doesn't have too much fancy flare to it, but it makes
+                great use of the standard Bootstrap components.
+                Feel free to use this template for any project you want!
+                This is a template that is great for small businesses.
+                It doesn't have too much fancy flare to it, but it makes
+                great use of the standard Bootstrap components.
+                Feel free to use this template for any project you want!
+                This is a template that is great for small businesses.
+                It doesn't have too much fancy flare to it, but it makes
+                great use of the standard Bootstrap components.
+                Feel free to use this template for any project you want!
+            </p>
+
+            <a href="./jumbo.html" class="btn btn-primary">
+                Call to Action!
+            </a>
+        </div>
+
+    </div>
+
+    <div class="bg-dark rounded text-light text-center d-flex justify-content-center align-items-center callout">
+        <p class="mb-0">
+            This call to action card is a great place to showcase some important
+            information or display a clever tagline!
+        </p>
+    </div>
+
+    <div class="row w-100 mt-3">
+
+        <div class="col-4">
+
+            <div class="card">
+
+                <div class="card-body">
+
+                    <h4 class="card-title">Card One</h4>
+
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Rem magni quas ex numquam, maxime minus quam molestias
+                        corporis quod, ea minima accusamus.
+                    </p>
+
+                </div>
+
+                <div class="card-footer">
+                    <button class="btn btn-primary">
+                        More Info
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-4">
+
+            <div class="card">
+
+                <div class="card-body">
+
+                    <h4 class="card-title">Card Two</h4>
+
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Quod tenetur natus at dolorem enim! Nesciunt pariatur
+                        voluptatem sunt quam eaque, vel, non in id
+                        dolore voluptates quos eligendi labore.
+                    </p>
+
+                </div>
+
+                <div class="card-footer">
+                    <button class="btn btn-primary">
+                        More Info
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-4">
+
+            <div class="card">
+
+                <div class="card-body">
+
+                    <h4 class="card-title">Card Three</h4>
+
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Rem magni quas ex numquam, maxime minus
+                        quam molestias corporis quod,
+                    </p>
+
+                </div>
+
+                <div class="card-footer">
+                    <button class="btn btn-primary">
+                        More Info
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="bg-dark rounded text-light text-center d-flex justify-content-center align-items-center">
+        <p style="padding-top: 10px;font-size: 15px;">
+            Copyright @2026
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
